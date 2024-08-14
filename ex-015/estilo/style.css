@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: 'Rubik';
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom:50px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: border;    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.normal > p {
+    max-width: 700px;
+}
+
+#img01{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 1px 10px 20px rgba(0, 0, 0, 0.274);
+}
+
+#img01 > p {
+    background-color: rgba(73, 73, 73, 0.199);
+    display: inline-block;
+    padding: 15px;
+}
+
+#img02{
+    background-color: rgba(34, 34, 34, 0.637);
+    color: white;
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 1px 10px 20px rgba(0, 0, 0, 0.274);
+}
+
+#img02 > p {
+    background-color: rgba(59, 59, 59, 0.253);
+    display: inline-block;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
